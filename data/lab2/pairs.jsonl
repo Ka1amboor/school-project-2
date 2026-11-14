@@ -1,0 +1,88 @@
+{"left_id": "family-01-0", "right_id": "family-01-1", "split": "tune", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-01-0", "right_id": "family-01-2", "split": "tune", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-01-0", "right_id": "family-01-3", "split": "tune", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-01-1", "right_id": "family-01-2", "split": "tune", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-01-1", "right_id": "family-01-3", "split": "tune", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-01-2", "right_id": "family-01-3", "split": "tune", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-02-0", "right_id": "family-02-1", "split": "tune", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-02-0", "right_id": "family-02-2", "split": "tune", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-02-0", "right_id": "family-02-3", "split": "tune", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-02-1", "right_id": "family-02-2", "split": "tune", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-02-1", "right_id": "family-02-3", "split": "tune", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-02-2", "right_id": "family-02-3", "split": "tune", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-03-0", "right_id": "family-03-1", "split": "tune", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-03-0", "right_id": "family-03-2", "split": "tune", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-03-0", "right_id": "family-03-3", "split": "tune", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-03-1", "right_id": "family-03-2", "split": "tune", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-03-1", "right_id": "family-03-3", "split": "tune", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-03-2", "right_id": "family-03-3", "split": "tune", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-04-0", "right_id": "family-04-1", "split": "tune", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-04-0", "right_id": "family-04-2", "split": "tune", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-04-0", "right_id": "family-04-3", "split": "tune", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-04-1", "right_id": "family-04-2", "split": "tune", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-04-1", "right_id": "family-04-3", "split": "tune", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-04-2", "right_id": "family-04-3", "split": "tune", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-05-0", "right_id": "family-05-1", "split": "tune", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-05-0", "right_id": "family-05-2", "split": "tune", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-05-0", "right_id": "family-05-3", "split": "tune", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-05-1", "right_id": "family-05-2", "split": "tune", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-05-1", "right_id": "family-05-3", "split": "tune", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-05-2", "right_id": "family-05-3", "split": "tune", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-06-0", "right_id": "family-06-1", "split": "evaluation", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-06-0", "right_id": "family-06-2", "split": "evaluation", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-06-0", "right_id": "family-06-3", "split": "evaluation", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-06-1", "right_id": "family-06-2", "split": "evaluation", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-06-1", "right_id": "family-06-3", "split": "evaluation", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-06-2", "right_id": "family-06-3", "split": "evaluation", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-07-0", "right_id": "family-07-1", "split": "evaluation", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-07-0", "right_id": "family-07-2", "split": "evaluation", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-07-0", "right_id": "family-07-3", "split": "evaluation", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-07-1", "right_id": "family-07-2", "split": "evaluation", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-07-1", "right_id": "family-07-3", "split": "evaluation", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-07-2", "right_id": "family-07-3", "split": "evaluation", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-08-0", "right_id": "family-08-1", "split": "evaluation", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-08-0", "right_id": "family-08-2", "split": "evaluation", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-08-0", "right_id": "family-08-3", "split": "evaluation", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-08-1", "right_id": "family-08-2", "split": "evaluation", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-08-1", "right_id": "family-08-3", "split": "evaluation", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-08-2", "right_id": "family-08-3", "split": "evaluation", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-09-0", "right_id": "family-09-1", "split": "evaluation", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-09-0", "right_id": "family-09-2", "split": "evaluation", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-09-0", "right_id": "family-09-3", "split": "evaluation", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-09-1", "right_id": "family-09-2", "split": "evaluation", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-09-1", "right_id": "family-09-3", "split": "evaluation", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-09-2", "right_id": "family-09-3", "split": "evaluation", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-10-0", "right_id": "family-10-1", "split": "evaluation", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-10-0", "right_id": "family-10-2", "split": "evaluation", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-10-0", "right_id": "family-10-3", "split": "evaluation", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-10-1", "right_id": "family-10-2", "split": "evaluation", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-10-1", "right_id": "family-10-3", "split": "evaluation", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-10-2", "right_id": "family-10-3", "split": "evaluation", "derivation_relation": true, "template_only": false, "reason": "Производные одного явно заданного исходника"}
+{"left_id": "family-01-0", "right_id": "family-02-0", "split": "tune", "derivation_relation": false, "template_only": true, "reason": "Независимо построенные решения; общий разрешённый шаблон. Возможны совпадающие короткие идиомы Python."}
+{"left_id": "family-01-2", "right_id": "family-02-0", "split": "tune", "derivation_relation": false, "template_only": true, "reason": "Независимо построенные решения; общий разрешённый шаблон. Возможны совпадающие короткие идиомы Python."}
+{"left_id": "family-01-3", "right_id": "family-02-2", "split": "tune", "derivation_relation": false, "template_only": true, "reason": "Независимо построенные решения; общий разрешённый шаблон. Возможны совпадающие короткие идиомы Python."}
+{"left_id": "family-01-0", "right_id": "family-03-0", "split": "tune", "derivation_relation": false, "template_only": true, "reason": "Независимо построенные решения; общий разрешённый шаблон. Возможны совпадающие короткие идиомы Python."}
+{"left_id": "family-01-2", "right_id": "family-03-0", "split": "tune", "derivation_relation": false, "template_only": true, "reason": "Независимо построенные решения; общий разрешённый шаблон. Возможны совпадающие короткие идиомы Python."}
+{"left_id": "family-01-3", "right_id": "family-03-2", "split": "tune", "derivation_relation": false, "template_only": true, "reason": "Независимо построенные решения; общий разрешённый шаблон. Возможны совпадающие короткие идиомы Python."}
+{"left_id": "family-02-0", "right_id": "family-03-0", "split": "tune", "derivation_relation": false, "template_only": true, "reason": "Независимо построенные решения; общий разрешённый шаблон. Возможны совпадающие короткие идиомы Python."}
+{"left_id": "family-02-2", "right_id": "family-03-0", "split": "tune", "derivation_relation": false, "template_only": true, "reason": "Независимо построенные решения; общий разрешённый шаблон. Возможны совпадающие короткие идиомы Python."}
+{"left_id": "family-02-3", "right_id": "family-03-2", "split": "tune", "derivation_relation": false, "template_only": true, "reason": "Независимо построенные решения; общий разрешённый шаблон. Возможны совпадающие короткие идиомы Python."}
+{"left_id": "family-04-0", "right_id": "family-05-0", "split": "tune", "derivation_relation": false, "template_only": true, "reason": "Независимо построенные решения; общий разрешённый шаблон. Возможны совпадающие короткие идиомы Python."}
+{"left_id": "family-04-2", "right_id": "family-05-0", "split": "tune", "derivation_relation": false, "template_only": true, "reason": "Независимо построенные решения; общий разрешённый шаблон. Возможны совпадающие короткие идиомы Python."}
+{"left_id": "family-04-3", "right_id": "family-05-2", "split": "tune", "derivation_relation": false, "template_only": true, "reason": "Независимо построенные решения; общий разрешённый шаблон. Возможны совпадающие короткие идиомы Python."}
+{"left_id": "family-06-0", "right_id": "family-07-0", "split": "evaluation", "derivation_relation": false, "template_only": true, "reason": "Независимо построенные решения; общий разрешённый шаблон. Возможны совпадающие короткие идиомы Python."}
+{"left_id": "family-06-2", "right_id": "family-07-0", "split": "evaluation", "derivation_relation": false, "template_only": true, "reason": "Независимо построенные решения; общий разрешённый шаблон. Возможны совпадающие короткие идиомы Python."}
+{"left_id": "family-06-3", "right_id": "family-07-2", "split": "evaluation", "derivation_relation": false, "template_only": true, "reason": "Независимо построенные решения; общий разрешённый шаблон. Возможны совпадающие короткие идиомы Python."}
+{"left_id": "family-08-0", "right_id": "family-09-0", "split": "evaluation", "derivation_relation": false, "template_only": true, "reason": "Независимо построенные решения; общий разрешённый шаблон. Возможны совпадающие короткие идиомы Python."}
+{"left_id": "family-08-2", "right_id": "family-09-0", "split": "evaluation", "derivation_relation": false, "template_only": true, "reason": "Независимо построенные решения; общий разрешённый шаблон. Возможны совпадающие короткие идиомы Python."}
+{"left_id": "family-08-3", "right_id": "family-09-2", "split": "evaluation", "derivation_relation": false, "template_only": true, "reason": "Независимо построенные решения; общий разрешённый шаблон. Возможны совпадающие короткие идиомы Python."}
+{"left_id": "family-08-0", "right_id": "family-10-0", "split": "evaluation", "derivation_relation": false, "template_only": true, "reason": "Независимо построенные решения; общий разрешённый шаблон. Возможны совпадающие короткие идиомы Python."}
+{"left_id": "family-08-2", "right_id": "family-10-0", "split": "evaluation", "derivation_relation": false, "template_only": true, "reason": "Независимо построенные решения; общий разрешённый шаблон. Возможны совпадающие короткие идиомы Python."}
+{"left_id": "family-08-3", "right_id": "family-10-2", "split": "evaluation", "derivation_relation": false, "template_only": true, "reason": "Независимо построенные решения; общий разрешённый шаблон. Возможны совпадающие короткие идиомы Python."}
+{"left_id": "family-09-0", "right_id": "family-10-0", "split": "evaluation", "derivation_relation": false, "template_only": true, "reason": "Независимо построенные решения; общий разрешённый шаблон. Возможны совпадающие короткие идиомы Python."}
+{"left_id": "family-09-2", "right_id": "family-10-0", "split": "evaluation", "derivation_relation": false, "template_only": true, "reason": "Независимо построенные решения; общий разрешённый шаблон. Возможны совпадающие короткие идиомы Python."}
+{"left_id": "family-09-3", "right_id": "family-10-2", "split": "evaluation", "derivation_relation": false, "template_only": true, "reason": "Независимо построенные решения; общий разрешённый шаблон. Возможны совпадающие короткие идиомы Python."}
+{"left_id": "family-01-0", "right_id": "tune-syntax_error", "split": "tune", "derivation_relation": false, "template_only": false, "reason": "Граничный пример; ожидается неопределённый результат"}
+{"left_id": "family-01-0", "right_id": "tune-empty_code", "split": "tune", "derivation_relation": false, "template_only": false, "reason": "Граничный пример; ожидается неопределённый результат"}
+{"left_id": "family-06-0", "right_id": "evaluation-syntax_error", "split": "evaluation", "derivation_relation": false, "template_only": false, "reason": "Граничный пример; ожидается неопределённый результат"}
+{"left_id": "family-06-0", "right_id": "evaluation-empty_code", "split": "evaluation", "derivation_relation": false, "template_only": false, "reason": "Граничный пример; ожидается неопределённый результат"}

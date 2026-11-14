@@ -1,0 +1,6 @@
+{
+  "version": "2",
+  "extra_templates": [
+    "def solve(words):\n    return {word: words.count(word) for word in set(words)}\n"
+  ]
+}

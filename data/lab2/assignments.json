@@ -1,0 +1,20 @@
+{
+  "assignments": [
+    {
+      "assignment_id": "squares",
+      "allowed_template": "from typing import Iterable\n\ndef check_input(values):\n    \"\"\"Разрешённая инфраструктура задания: не часть авторского решения.\"\"\"\n    if values is None:\n        raise ValueError(\"values must not be None\")\n    return list(values)\n",
+      "requirements": [
+        "Функция solve",
+        "Сумма квадратов неотрицательных чисел"
+      ]
+    },
+    {
+      "assignment_id": "words",
+      "allowed_template": "from typing import Iterable\n\ndef check_input(values):\n    \"\"\"Разрешённая инфраструктура задания: не часть авторского решения.\"\"\"\n    if values is None:\n        raise ValueError(\"values must not be None\")\n    return list(values)\n",
+      "requirements": [
+        "Функция solve",
+        "Частоты слов в списке"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+         13471505 function calls (12050810 primitive calls) in 3.853 seconds
+
+   Ordered by: cumulative time
+   List reduced from 109 to 30 due to restriction <30>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.003    0.003    3.872    3.872 evaluation.py:147(build_index)
+     5001    0.012    0.000    3.864    0.001 features.py:186(feature_pipeline)
+     5000    0.035    0.000    3.650    0.001 features.py:171(extract_features)
+     5000    0.057    0.000    2.359    0.000 features.py:152(ast_features)
+     5000    0.413    0.000    1.020    0.000 features.py:75(token_features)
+    19778    0.011    0.000    0.903    0.000 ast.py:115(dump)
+575519/19778    0.598    0.000    0.891    0.000 ast.py:127(_format)
+157149/5000    0.112    0.000    0.786    0.000 features.py:112(visit)
+147149/5000    0.073    0.000    0.780    0.000 ast.py:403(visit)
+147149/5000    0.273    0.000    0.775    0.000 features.py:119(generic_visit)
+397468/117018    0.076    0.000    0.646    0.000 {method 'join' of 'str' objects}
+145503/62446    0.027    0.000    0.619    0.000 ast.py:172(<genexpr>)
+   152149    0.062    0.000    0.359    0.000 ast.py:369(walk)
+   373953    0.170    0.000    0.327    0.000 tokenize.py:577(_generate_tokens_from_c_tokenizer)
+   147149    0.041    0.000    0.279    0.000 {method 'extend' of 'collections.deque' objects}
+   289298    0.118    0.000    0.237    0.000 ast.py:269(iter_child_nodes)
+     5000    0.015    0.000    0.230    0.000 ast.py:34(parse)
+  2910335    0.223    0.000    0.223    0.000 {built-in method builtins.isinstance}
+     5000    0.215    0.000    0.215    0.000 {built-in method builtins.compile}
+   878970    0.125    0.000    0.172    0.000 ast.py:257(iter_fields)
+   368953    0.086    0.000    0.156    0.000 __init__.py:447(_make)
+     5000    0.003    0.000    0.144    0.000 hashing.py:20(submission_hash)
+  1436779    0.141    0.000    0.141    0.000 {built-in method builtins.getattr}
+    10000    0.009    0.000    0.118    0.000 hashing.py:16(stable_hash)
+   275988    0.068    0.000    0.118    0.000 {built-in method builtins.any}
+     5000    0.028    0.000    0.115    0.000 parsing.py:64(parse_submission)
+    10000    0.004    0.000    0.088    0.000 hashing.py:9(canonical_json)
+     5001    0.013    0.000    0.085    0.000 sources.py:46(records)
+    10000    0.011    0.000    0.084    0.000 __init__.py:183(dumps)
+   503952    0.084    0.000    0.084    0.000 features.py:95(<genexpr>)
+
+

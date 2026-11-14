@@ -1,0 +1,18 @@
+{
+  "records": 45,
+  "reports": 978,
+  "undetermined": 96,
+  "student_versions": {
+    "squares/student-01-0": [
+      "family-01-0",
+      "family-01-v2"
+    ]
+  },
+  "errors": [],
+  "methods": [
+    "token",
+    "ast"
+  ],
+  "feature_version": "2.0",
+  "threshold": 0.5
+}

@@ -1,0 +1,16 @@
+         351986 function calls in 0.098 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+    50280    0.060    0.000    0.075    0.000 comparison.py:20(jaccard)
+        1    0.017    0.017    0.098    0.098 benchmark_lab2.py:42(score_queries)
+   100560    0.008    0.000    0.008    0.000 {method 'keys' of 'dict' objects}
+   150840    0.007    0.000    0.007    0.000 {built-in method builtins.len}
+    50300    0.006    0.000    0.006    0.000 features.py:62(method)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.next}
+        2    0.000    0.000    0.000    0.000 {method 'values' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.iter}
+
+

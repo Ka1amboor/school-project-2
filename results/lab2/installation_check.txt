@@ -1,0 +1,29 @@
+$ python -m pip install --no-index --no-deps /Users/a.lisnyak/PycharmProjects/school-project/wheels/school_lab-0.2.0-py3-none-any.whl
+Processing /Users/a.lisnyak/PycharmProjects/school-project/wheels/school_lab-0.2.0-py3-none-any.whl
+Installing collected packages: school-lab
+Successfully installed school-lab-0.2.0
+
+$ python -c import school_lab, sys; from pathlib import Path; from importlib.metadata import version; assert Path(school_lab.__file__).is_relative_to(sys.prefix); assert version('school-lab') == '0.2.0'; print('isolated import OK, version=0.2.0')
+isolated import OK, version=0.2.0
+
+$ python -m school_lab --help
+usage: school-lab [-h] {import,analyze,evaluate} ...
+
+Учебные сдачи и анализ сходства — Python Core
+
+positional arguments:
+  {import,analyze,evaluate}
+    import              Импорт файла сдач
+    analyze             ЛР2: сравнение пар или top-k
+    evaluate            ЛР2: настройка порога и независимая оценка
+
+options:
+  -h, --help            show this help message and exit
+
+$ python -m school_lab import /Users/a.lisnyak/PycharmProjects/school-project/data/submissions.jsonl
+{"accepted": ["sub-001", "sub-002", "sub-003"], "duplicate": [], "errors": []}
+
+$ python -m school_lab evaluate /Users/a.lisnyak/PycharmProjects/school-project/data/lab2/submissions.jsonl --assignments /Users/a.lisnyak/PycharmProjects/school-project/data/lab2/assignments.json --provenance /Users/a.lisnyak/PycharmProjects/school-project/data/lab2/provenance.jsonl --pairs /Users/a.lisnyak/PycharmProjects/school-project/data/lab2/pairs.jsonl --output /var/folders/ll/83__9c5s4pggdrwrr6r0ynzc0000gn/T/school-lab2-install-liubil7l/quality
+{"methods": {"token": {"threshold": 0.11764705882352941, "evaluation": {"confusion_matrix": {"tp": 18, "fp": 4, "tn": 9, "fn": 12}, "precision": 0.8181818181818182, "recall": 0.6, "f1": 0.6923076923076923, "total": 44, "scored": 43, "undetermined": 1, "undetermined_fraction": 0.022727272727272728, "matrix_policy": "Матрица и P/R/F1 только по определённым score; отказы отдельно"}}, "ast": {"threshold": 1.0, "evaluation": {"confusion_matrix": {"tp": 30, "fp": 3, "tn": 10, "fn": 0}, "precision": 0.9090909090909091, "recall": 1.0, "f1": 0.9523809523809523, "total": 44, "scored": 43, "undetermined": 1, "undetermined_fraction": 0.022727272727272728, "matrix_policy": "Матрица и P/R/F1 только по определённым score; отказы отдельно"}}}, "output": "/var/folders/ll/83__9c5s4pggdrwrr6r0ynzc0000gn/T/school-lab2-install-liubil7l/quality"}
+
+PASS: isolated offline installation and CLI

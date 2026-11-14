@@ -1,0 +1,282 @@
+{
+  "environment": {
+    "python": "3.12.12 (main, Oct  9 2025, 11:07:00) [Clang 17.0.0 (clang-1700.6.3.2)]",
+    "platform": "macOS-15.3-arm64-arm-64bit",
+    "machine": "arm64",
+    "processor": "arm"
+  },
+  "seed": 20261111,
+  "repeats": 3,
+  "query_repeats": 10,
+  "load": "Синтетические уникальные ID; десять небольших исходных решений; два задания",
+  "workload": "read -> validate -> token+AST feature index; one-query scan per method x10; sequential",
+  "memory_policy": "Отдельный идентичный прогон tracemalloc, peak Python allocations, не RSS",
+  "timing_policy": "perf_counter без tracemalloc; новый процесс для каждого повтора; без конкурентности",
+  "comparison_policy": "before=copy both sets and union/intersection; after=key-view intersection, union size=len(a)+len(b)-i",
+  "source_hashes": {
+    "features.py": "32fd7a7d0f4bf91f7e2163064a2965a1420f04a495c447616d91e2f00d9cbc57",
+    "comparison.py": "9531e544bf5c1d57fded35a1b517d312525b347fead5d8a525d4f6e00eb0a66b"
+  },
+  "samples": [
+    {
+      "implementation": "before",
+      "records": 100,
+      "index_wall_seconds": 0.029218457988463342,
+      "query_wall_seconds": 0.0012372919591143727,
+      "wall_seconds": 0.030455749947577715,
+      "score_calls": 980,
+      "checksum": 390.33465530748214,
+      "peak_python_bytes": 1137680,
+      "repeat": 1
+    },
+    {
+      "implementation": "after",
+      "records": 100,
+      "index_wall_seconds": 0.02946816594339907,
+      "query_wall_seconds": 0.0007302920566871762,
+      "wall_seconds": 0.030198458000086248,
+      "score_calls": 980,
+      "checksum": 390.33465530748214,
+      "peak_python_bytes": 1139343,
+      "repeat": 1
+    },
+    {
+      "implementation": "after",
+      "records": 100,
+      "index_wall_seconds": 0.02909604099113494,
+      "query_wall_seconds": 0.0007796249119564891,
+      "wall_seconds": 0.02987566590309143,
+      "score_calls": 980,
+      "checksum": 390.33465530748214,
+      "peak_python_bytes": 1137680,
+      "repeat": 2
+    },
+    {
+      "implementation": "before",
+      "records": 100,
+      "index_wall_seconds": 0.02811491710599512,
+      "query_wall_seconds": 0.0012357078958302736,
+      "wall_seconds": 0.029350625001825392,
+      "score_calls": 980,
+      "checksum": 390.33465530748214,
+      "peak_python_bytes": 1137164,
+      "repeat": 2
+    },
+    {
+      "implementation": "before",
+      "records": 100,
+      "index_wall_seconds": 0.02987691597081721,
+      "query_wall_seconds": 0.0012222090736031532,
+      "wall_seconds": 0.03109912504442036,
+      "score_calls": 980,
+      "checksum": 390.33465530748214,
+      "peak_python_bytes": 1138134,
+      "repeat": 3
+    },
+    {
+      "implementation": "after",
+      "records": 100,
+      "index_wall_seconds": 0.02968937496189028,
+      "query_wall_seconds": 0.0007989580044522882,
+      "wall_seconds": 0.03048833296634257,
+      "score_calls": 980,
+      "checksum": 390.33465530748214,
+      "peak_python_bytes": 1136785,
+      "repeat": 3
+    },
+    {
+      "implementation": "before",
+      "records": 1000,
+      "index_wall_seconds": 0.28789141692686826,
+      "query_wall_seconds": 0.012506416067481041,
+      "wall_seconds": 0.3003978329943493,
+      "score_calls": 10080,
+      "checksum": 3454.5542009400588,
+      "peak_python_bytes": 10453562,
+      "repeat": 1
+    },
+    {
+      "implementation": "after",
+      "records": 1000,
+      "index_wall_seconds": 0.2894697909941897,
+      "query_wall_seconds": 0.008241000003181398,
+      "wall_seconds": 0.2977107909973711,
+      "score_calls": 10080,
+      "checksum": 3454.5542009400588,
+      "peak_python_bytes": 10453536,
+      "repeat": 1
+    },
+    {
+      "implementation": "after",
+      "records": 1000,
+      "index_wall_seconds": 0.2904149580281228,
+      "query_wall_seconds": 0.007838624995201826,
+      "wall_seconds": 0.2982535830233246,
+      "score_calls": 10080,
+      "checksum": 3454.5542009400588,
+      "peak_python_bytes": 10454115,
+      "repeat": 2
+    },
+    {
+      "implementation": "before",
+      "records": 1000,
+      "index_wall_seconds": 0.2897958749672398,
+      "query_wall_seconds": 0.012712541036307812,
+      "wall_seconds": 0.3025084160035476,
+      "score_calls": 10080,
+      "checksum": 3454.5542009400588,
+      "peak_python_bytes": 10453304,
+      "repeat": 2
+    },
+    {
+      "implementation": "before",
+      "records": 1000,
+      "index_wall_seconds": 0.2893272079527378,
+      "query_wall_seconds": 0.012597750057466328,
+      "wall_seconds": 0.30192495801020414,
+      "score_calls": 10080,
+      "checksum": 3454.5542009400588,
+      "peak_python_bytes": 10452529,
+      "repeat": 3
+    },
+    {
+      "implementation": "after",
+      "records": 1000,
+      "index_wall_seconds": 0.287791584036313,
+      "query_wall_seconds": 0.008466082974337041,
+      "wall_seconds": 0.29625766701065004,
+      "score_calls": 10080,
+      "checksum": 3454.5542009400588,
+      "peak_python_bytes": 10452599,
+      "repeat": 3
+    },
+    {
+      "implementation": "before",
+      "records": 5000,
+      "index_wall_seconds": 1.5307235410436988,
+      "query_wall_seconds": 0.08053224999457598,
+      "wall_seconds": 1.6112557910382748,
+      "score_calls": 50280,
+      "checksum": 17734.766696042792,
+      "peak_python_bytes": 50579695,
+      "repeat": 1
+    },
+    {
+      "implementation": "after",
+      "records": 5000,
+      "index_wall_seconds": 1.4714764578966424,
+      "query_wall_seconds": 0.0541050840402022,
+      "wall_seconds": 1.5255815419368446,
+      "score_calls": 50280,
+      "checksum": 17734.766696042792,
+      "peak_python_bytes": 50579941,
+      "repeat": 1
+    },
+    {
+      "implementation": "after",
+      "records": 5000,
+      "index_wall_seconds": 1.633110374910757,
+      "query_wall_seconds": 0.057972875074483454,
+      "wall_seconds": 1.6910832499852404,
+      "score_calls": 50280,
+      "checksum": 17734.766696042792,
+      "peak_python_bytes": 50579534,
+      "repeat": 2
+    },
+    {
+      "implementation": "before",
+      "records": 5000,
+      "index_wall_seconds": 1.4805230420315638,
+      "query_wall_seconds": 0.08173191593959928,
+      "wall_seconds": 1.562254957971163,
+      "score_calls": 50280,
+      "checksum": 17734.766696042792,
+      "peak_python_bytes": 50579538,
+      "repeat": 2
+    },
+    {
+      "implementation": "before",
+      "records": 5000,
+      "index_wall_seconds": 1.4877800419926643,
+      "query_wall_seconds": 0.07944562507327646,
+      "wall_seconds": 1.5672256670659408,
+      "score_calls": 50280,
+      "checksum": 17734.766696042792,
+      "peak_python_bytes": 50579384,
+      "repeat": 3
+    },
+    {
+      "implementation": "after",
+      "records": 5000,
+      "index_wall_seconds": 1.512067166971974,
+      "query_wall_seconds": 0.06181070802267641,
+      "wall_seconds": 1.5738778749946505,
+      "score_calls": 50280,
+      "checksum": 17734.766696042792,
+      "peak_python_bytes": 50579695,
+      "repeat": 3
+    }
+  ],
+  "medians": [
+    {
+      "records": 100,
+      "implementation": "before",
+      "index_wall_seconds": 0.029218457988463342,
+      "query_wall_seconds": 0.0012357078958302736,
+      "wall_seconds": 0.030455749947577715,
+      "peak_python_bytes": 1137680,
+      "score_calls": 980,
+      "checksum": 390.33465530748214
+    },
+    {
+      "records": 100,
+      "implementation": "after",
+      "index_wall_seconds": 0.02946816594339907,
+      "query_wall_seconds": 0.0007796249119564891,
+      "wall_seconds": 0.030198458000086248,
+      "peak_python_bytes": 1137680,
+      "score_calls": 980,
+      "checksum": 390.33465530748214
+    },
+    {
+      "records": 1000,
+      "implementation": "before",
+      "index_wall_seconds": 0.2893272079527378,
+      "query_wall_seconds": 0.012597750057466328,
+      "wall_seconds": 0.30192495801020414,
+      "peak_python_bytes": 10453304,
+      "score_calls": 10080,
+      "checksum": 3454.5542009400588
+    },
+    {
+      "records": 1000,
+      "implementation": "after",
+      "index_wall_seconds": 0.2894697909941897,
+      "query_wall_seconds": 0.008241000003181398,
+      "wall_seconds": 0.2977107909973711,
+      "peak_python_bytes": 10453536,
+      "score_calls": 10080,
+      "checksum": 3454.5542009400588
+    },
+    {
+      "records": 5000,
+      "implementation": "before",
+      "index_wall_seconds": 1.4877800419926643,
+      "query_wall_seconds": 0.08053224999457598,
+      "wall_seconds": 1.5672256670659408,
+      "peak_python_bytes": 50579538,
+      "score_calls": 50280,
+      "checksum": 17734.766696042792
+    },
+    {
+      "records": 5000,
+      "implementation": "after",
+      "index_wall_seconds": 1.512067166971974,
+      "query_wall_seconds": 0.057972875074483454,
+      "wall_seconds": 1.5738778749946505,
+      "peak_python_bytes": 50579695,
+      "score_calls": 50280,
+      "checksum": 17734.766696042792
+    }
+  ]
+}
